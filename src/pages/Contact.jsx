@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -8,12 +9,24 @@ export default function Contact(){
   function onChange(e){
     setForm(f => ({ ...f, [e.target.name]: e.target.value }))
   }
+=======
+
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+export default function Contact(){
+  const navigate = useNavigate()
+  const [form, setForm] = useState({ firstName:'', lastName:'', phone:'', email:'', message:'' })
+  function onChange(e){ setForm(f => ({ ...f, [e.target.name]: e.target.value })) }
+>>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417
   function onSubmit(e){
     e.preventDefault()
     localStorage.setItem('lastMessage', JSON.stringify(form))
     navigate('/') // redirect to Home
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417
   return (
     <div className="container">
       <h2>Contact</h2>
@@ -32,4 +45,8 @@ export default function Contact(){
       </div>
     </div>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417

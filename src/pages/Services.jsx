@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417
 export default function Services(){
   return (
     <div className="container">
@@ -18,4 +22,8 @@ export default function Services(){
       </div>
     </div>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417

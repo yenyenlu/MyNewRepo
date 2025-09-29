@@ -1,7 +1,11 @@
 {
   "name": "yan-portfolio",
   "private": true,
+<<<<<<< HEAD
   "version": "2.0.0",
+=======
+  "version": "1.0.0",
+>>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417
   "type": "module",
   "scripts": {
     "dev": "vite",
