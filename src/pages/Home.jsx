@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import { Link } from 'react-router-dom'
 
-=======
-
-import { Link } from 'react-router-dom'
->>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417
 export default function Home(){
   const lastMsg = localStorage.getItem('lastMessage')
   return (
@@ -32,8 +27,4 @@ export default function Home(){
       </section>
     </div>
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417

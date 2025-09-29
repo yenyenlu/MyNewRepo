@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417
 export default function About(){
   return (
     <div className="container">
@@ -14,16 +10,8 @@ export default function About(){
           <li>Soft skills: Communication · Teamwork · Data analysis</li>
         </ul>
         <p><a className="btn" href="/assets/Yan_Lu_Resume.docx" target="_blank" rel="noopener">Download Resume (DOCX)</a></p>
-<<<<<<< HEAD
         <p className="small">LinkedIn: <a href="https://www.linkedin.com/in/yanlu27" target="_blank" rel="noopener">linkedin.com/in/yanlu27</a></p>
       </div>
     </div>
   )
 }
-=======
-        <p className="small">LinkedIn: <a href="https://www.linkedin.com/in/ylu124" target="_blank" rel="noopener">linkedin.com/in/ylu124</a></p>
-      </div>
-    </div>
-  )
-}
->>>>>>> d377e5a6218764aae94e18afed64d6f1b6e65417
